@@ -1,0 +1,21 @@
+body{
+    font-family: "Bell MT";
+}
+.header-container{
+    background-image: url('images/h1-background.jpg');
+    padding : 30px;
+    background-size: 50% auto;
+}
+h1 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-bottom:5px;
+    padding-right: 1px;
+    background-color: #FFC8DD;
+    color: #ef538e;
+    border-width: 2px;
+    border-style:solid;
+    border-color: #FFAFCC;
+    text-shadow: -1px 0 #ed1969, 0 1px #ec4785;
+}
