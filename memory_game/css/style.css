@@ -1,0 +1,72 @@
+body {
+    background-color: rgba(243, 209, 233, 0.82);
+    margin: auto;
+    /*display: flex;*/
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Dopasuj wysokość do zawartości */
+}
+
+table {
+    border-collapse: separate; /* Usuwa podwójne krawędzie */
+    border-spacing: 10px;
+    width: auto;
+    height: auto;
+}
+
+td {
+    border: 1px solid #000; /* Cienka linia wokół komórek */
+    border-radius: 15px;
+    background-image: url('/covers/img_6.png');
+    background-size: cover; /* Dopasowanie obrazka do rozmiaru komórki */
+    background-position: center;
+    width: 16vw;  /* Szerokość komórek jako 16% szerokości okna (na 5 kolumn) */
+    height: 19vh;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    color: #EEBFDD;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Dodaje obramowanie do tekstu */
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly; /* Przestrzeń między elementami */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    font-family: 'Shrikhand', cursive;
+    color: #EEBFDD;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Dodaje obramowanie do tekstu */
+}
+
+button {
+    padding: 12px 14px;
+    font-size: 16px;
+    /*font-family: 'Share Tech Mono', monospace;*/
+    font-family: 'Shrikhand', cursive;
+    background-color: rgba(203, 216, 254, 0.88);
+    border-radius: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    color: #EEBFDD;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Dodaje obramowanie do tekstu */
+
+}
+
+button:hover {
+    background-color: rgb(243, 209, 233); /* Example hover color */
+}
