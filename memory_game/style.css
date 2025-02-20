@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(243, 209, 233, 0.82);
+}
+
+.memory-game{
+    border: 2px solid black;
+}
+
+.memory-card{
+    border: 2px solid #ffc7dd;
+}
+
+.front-face,
+.back-face{
+    border: 2px solid #e0648e;
+}

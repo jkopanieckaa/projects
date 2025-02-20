@@ -29,6 +29,18 @@ td {
     cursor: pointer;
 }
 
+.card {
+    background-image: url('/covers/img_6.png'); /* Tyl karty */
+    background-size: cover;
+    width: 16vw;
+    height: 19vh;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
 .buttons{
     display: flex;
     gap: 10px;
