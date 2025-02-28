@@ -27,6 +27,7 @@ body{
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .memory-card:active{
@@ -48,6 +49,7 @@ body{
     background: #EEBFDD;
     backface-visibility: hidden;
 }
-.front-face{
+
+.back-face{
     transform: rotateY(180deg);
 }
