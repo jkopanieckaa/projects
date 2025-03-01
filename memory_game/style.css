@@ -53,3 +53,15 @@ body{
 .back-face{
     transform: rotateY(180deg);
 }
+
+#win-message{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: rgba(238, 191, 221, 0.41);
+    padding: 100%;
+    font-size: 90px;
+    color:white;
+    text-shadow: black 1px 1px 2px;
+}

@@ -65,12 +65,13 @@ function resetBoard() {
     });
 })();
 
-//u won!!
+
 function win() {
+    document.getElementById('win-message').style.display = 'block';
+
     setTimeout(() => {
-        alert("You won!");
         location.reload();
-    }, 1000);
+    }, 2500);
 
 }
 cards.forEach(card => card.addEventListener('click', flipCard));
